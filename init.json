@@ -1,0 +1,14 @@
+{
+  "room_id": 0,
+  "title": "A brightly lit room",
+  "description": "You are standing in the center of a brightly lit room. You notice a shop to the west and exits to the north, south and east.",
+  "coordinates": "(60,60)",
+  "elevation": 0,
+  "terrain": "NORMAL",
+  "players": ["player109", "player84", "player60", "player83", "player72", "player74", "player75", "player127", "player76", "player92", "player96", "player97", "player121", "player106", "player116", "player133", "player124", "player141", "player119", "player81", "player53"],
+  "items": [],
+  "exits": ["n", "s", "e", "w"],
+  "cooldown": 1,
+  "errors": [],
+  "messages": []
+}
