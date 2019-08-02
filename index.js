@@ -1,18 +1,9 @@
 require('dotenv').config();
 
-const axios = require('axios');
 const server = require('./api/server');
+const serverHandshake = require('./api/handshake');
 const db = require('./data/db');
 const port = process.env.PORT || 9000;
-
-console.log(process.env.API_KEY, process.env.API_SERVER);
-
-const serverHandshake = axios.create({
-  baseURL: process.env.API_SERVER,
-  headers: {
-    authorization: `Token ${process.env.API_KEY}`
-  }
-});
 
 server.listen(port, async () => {
   console.log(
@@ -29,7 +20,7 @@ server.listen(port, async () => {
     console.log('ERROR:', error);
   }
 
-  // start an tick for any actions needing to be done
+  // start a timer for any actions needing to be done
   setInterval(() => {
     // this will be set to true if we're on a cooldown
     if (db.get('timeout').value()) return;
@@ -42,8 +33,11 @@ server.listen(port, async () => {
       // do something with that command
       db.write();
     } else {
+      // calculate our delay based off the cooldown
+      const delay = db.get('cooldown').value() * 1000;
+
       // run our next action after a cooldown
-      timerId = setTimeout(async () => {
+      setTimeout(async () => {
         let room = db.get('currentRoom').value();
         let nextMove = getUnexploredDir(room);
         let nextRoomID;
@@ -92,9 +86,9 @@ server.listen(port, async () => {
             console.error(error);
           }
         }
-      }, db.get('cooldown').value() * 1000);
+      }, delay);
 
-      // activate our timeout while we wait
+      // activate the timeout while we wait
       db.set('timeout', true).write();
     }
   }, 1000);
