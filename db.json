@@ -2023,13 +2023,12 @@
         "player83",
         "player74",
         "player75",
-        "jordan s",
+        "g.o.a.t.",
         "player96",
         "player121",
         "player133",
         "player124",
-        "player141",
-        "player119"
+        "player141"
       ],
       "items": [],
       "exits": [
@@ -2038,10 +2037,11 @@
         "e",
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 15,
       "errors": [],
       "messages": [
-        "You have walked north."
+        "You have walked east.",
+        "Wise Explorer: -50% CD"
       ]
     },
     {
@@ -2052,20 +2052,18 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "jmax",
-        "follow me @xanderjakeq everywhere",
-        "[traderjoeschiliandlimechipsarethebest]",
-        "orlando"
+        "mad mark",
+        "diana"
       ],
       "items": [],
       "exits": [
         "e"
       ],
-      "cooldown": 10,
-      "errors": [],
-      "messages": [
-        "You have walked west."
-      ]
+      "cooldown": 11,
+      "errors": [
+        "Item not found: +5s CD"
+      ],
+      "messages": []
     },
     {
       "room_id": 2,
@@ -2081,10 +2079,11 @@
         "s",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked south.",
+        "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2102,11 +2101,11 @@
         "e",
         "w"
       ],
-      "cooldown": 7.5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked east.",
-        "Uphill Penalty: 5s CD",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2127,7 +2126,7 @@
       "cooldown": 5,
       "errors": [],
       "messages": [
-        "You have walked west.",
+        "You have walked south.",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2143,10 +2142,10 @@
       "exits": [
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 5,
       "errors": [],
       "messages": [
-        "You have walked east."
+        "You have picked up shiny treasure"
       ]
     },
     {
@@ -2219,18 +2218,20 @@
       "coordinates": "(61,58)",
       "elevation": 2,
       "terrain": "MOUNTAIN",
-      "players": [],
+      "players": [
+        "jordan s"
+      ],
       "items": [],
       "exits": [
         "n",
         "s",
         "e"
       ],
-      "cooldown": 7.5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked south.",
-        "Uphill Penalty: 5s CD",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2242,8 +2243,8 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "player146",
-        "diana"
+        "anon_denlife_loyalist",
+        "player146"
       ],
       "items": [],
       "exits": [
@@ -2251,10 +2252,10 @@
         "s",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 15,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked north.",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2286,21 +2287,24 @@
       "coordinates": "(61,57)",
       "elevation": 3,
       "terrain": "MOUNTAIN",
-      "players": [],
-      "items": [
-        "amazing treasure"
+      "players": [
+        "[dude_looks_like_a_brady]",
+        "kittendaddy69",
+        "[code_laryna]"
       ],
+      "items": [],
       "exits": [
         "n",
         "s",
         "e",
         "w"
       ],
-      "cooldown": 7.5,
+      "cooldown": 35,
       "errors": [],
       "messages": [
-        "You have walked south.",
+        "You have walked west.",
         "Uphill Penalty: 5s CD",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2331,17 +2335,21 @@
       "coordinates": "(62,57)",
       "elevation": 2,
       "terrain": "MOUNTAIN",
-      "players": [],
+      "players": [
+        "jon palacio"
+      ],
       "items": [],
       "exits": [
         "s",
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 35,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked north.",
+        "Uphill Penalty: 5s CD",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2438,21 +2446,16 @@
       "coordinates": "(60,62)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [
-        "player127"
-      ],
+      "players": [],
       "items": [],
       "exits": [
         "n",
         "s",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 1,
       "errors": [],
-      "messages": [
-        "You have walked east.",
-        "Wise Explorer: -50% CD"
-      ]
+      "messages": []
     },
     {
       "room_id": 20,
@@ -2461,7 +2464,10 @@
       "coordinates": "(60,63)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [],
+      "players": [
+        "lukas",
+        "strugglebusallday"
+      ],
       "items": [],
       "exits": [
         "n",
@@ -2469,10 +2475,11 @@
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 10,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked south.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2529,12 +2536,9 @@
         "s",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 1,
       "errors": [],
-      "messages": [
-        "You have walked west.",
-        "Wise Explorer: -50% CD"
-      ]
+      "messages": []
     },
     {
       "room_id": 24,
@@ -2747,7 +2751,7 @@
       "elevation": 1,
       "terrain": "MOUNTAIN",
       "players": [
-        "player64"
+        "supersayangod"
       ],
       "items": [],
       "exits": [
@@ -2755,10 +2759,12 @@
         "s",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 35,
       "errors": [],
       "messages": [
-        "You have walked south.",
+        "You have walked west.",
+        "Uphill Penalty: 5s CD",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -2769,16 +2775,20 @@
       "coordinates": "(63,56)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [],
+      "players": [
+        "bradyfanboy58"
+      ],
       "items": [],
       "exits": [
         "s",
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked north."
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
+        "Wise Explorer: -50% CD"
       ]
     },
     {
@@ -2815,10 +2825,10 @@
       "exits": [
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 5,
       "errors": [],
       "messages": [
-        "You have walked east."
+        "You have picked up flower"
       ]
     },
     {
@@ -3123,19 +3133,18 @@
       "coordinates": "(63,55)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [
-        "[code_laryna]"
-      ],
+      "players": [],
       "items": [],
       "exits": [
         "n",
         "s",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -3356,10 +3365,11 @@
         "s",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 10,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked south.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -3454,18 +3464,17 @@
       "coordinates": "(63,54)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [
-        "bradyfanboy58"
-      ],
+      "players": [],
       "items": [],
       "exits": [
         "n",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -3539,20 +3548,15 @@
       "coordinates": "(60,65)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [
-        "player103"
-      ],
+      "players": [],
       "items": [],
       "exits": [
         "s",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 1,
       "errors": [],
-      "messages": [
-        "You have walked east.",
-        "Wise Explorer: -50% CD"
-      ]
+      "messages": []
     },
     {
       "room_id": 73,
@@ -3609,7 +3613,9 @@
       "cooldown": 10,
       "errors": [],
       "messages": [
-        "You have walked east."
+        "You have walked west.",
+        "Heavily Encumbered: +100% CD",
+        "Wise Explorer: -50% CD"
       ]
     },
     {
@@ -3620,9 +3626,7 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "player63",
-        "jarule",
-        "kittendaddy69"
+        "brooks"
       ],
       "items": [],
       "exits": [
@@ -3630,10 +3634,11 @@
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 10,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked south.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -3762,17 +3767,20 @@
       "coordinates": "(59,66)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [],
+      "players": [
+        "therealmichaelney"
+      ],
       "items": [],
       "exits": [
         "s",
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 10,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -3809,10 +3817,10 @@
         "e",
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 5,
       "errors": [],
       "messages": [
-        "You have walked east."
+        "You have picked up flower"
       ]
     },
     {
@@ -4114,10 +4122,11 @@
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked north.",
+        "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -4366,7 +4375,7 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "player57"
+        "mining_bot"
       ],
       "items": [],
       "exits": [
@@ -4374,10 +4383,11 @@
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked west.",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -4741,17 +4751,13 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [],
-      "items": [
-        "tiny treasure"
-      ],
+      "items": [],
       "exits": [
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 1,
       "errors": [],
-      "messages": [
-        "You have walked east."
-      ]
+      "messages": []
     },
     {
       "room_id": 131,
@@ -4976,10 +4982,11 @@
         "n",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -5240,18 +5247,16 @@
       "coordinates": "(66,55)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [
-        "kittendaddy69"
-      ],
+      "players": [],
       "items": [],
       "exits": [
         "e",
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 5,
       "errors": [],
       "messages": [
-        "You have walked east."
+        "You have picked up flower"
       ]
     },
     {
@@ -5289,10 +5294,11 @@
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -5442,19 +5448,18 @@
       "coordinates": "(67,53)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [
-        "goose_h8r"
-      ],
+      "players": [],
       "items": [],
       "exits": [
         "n",
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked west.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -6038,10 +6043,10 @@
         "e",
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 5,
       "errors": [],
       "messages": [
-        "You have walked east."
+        "You have picked up flower"
       ]
     },
     {
@@ -7229,18 +7234,14 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [],
-      "items": [
-        "great treasure"
-      ],
+      "items": [],
       "exits": [
         "e",
         "w"
       ],
-      "cooldown": 10,
+      "cooldown": 1,
       "errors": [],
-      "messages": [
-        "You have walked east."
-      ]
+      "messages": []
     },
     {
       "room_id": 252,
@@ -8195,18 +8196,18 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "its_lit!",
-        "mining_bot"
+        "lieutenant s.m. humphrey"
       ],
       "items": [],
       "exits": [
         "s",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -8557,7 +8558,11 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [],
-      "items": [],
+      "items": [
+        "great treasure",
+        "spectacular treasure",
+        "amazing treasure"
+      ],
       "exits": [
         "w"
       ],
@@ -8747,17 +8752,20 @@
       "coordinates": "(68,52)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [],
+      "players": [
+        "i hate this project"
+      ],
       "items": [],
       "exits": [
         "n",
         "s",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked west.",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -9259,7 +9267,10 @@
       "coordinates": "(68,51)",
       "elevation": 0,
       "terrain": "NORMAL",
-      "players": [],
+      "players": [
+        "goose_h8r",
+        "leif"
+      ],
       "items": [],
       "exits": [
         "n",
@@ -9267,10 +9278,11 @@
         "e",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -9337,10 +9349,11 @@
         "s",
         "e"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked west.",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -9536,6 +9549,7 @@
       "terrain": "NORMAL",
       "players": [
         "the_lone_wolf_dies_but_the_pack_survives",
+        "\n\nye ole late miner\n\n",
         "jaym"
       ],
       "items": [],
@@ -9544,10 +9558,11 @@
         "s",
         "w"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
-        "You have walked east.",
+        "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -10297,17 +10312,20 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "estevan"
+        "[traderjoeschiliandlimechipsarethebest]",
+        "estevan",
+        "erin-koen"
       ],
       "items": [],
       "exits": [
         "n",
         "s"
       ],
-      "cooldown": 5,
+      "cooldown": 30,
       "errors": [],
       "messages": [
         "You have walked north.",
+        "Heavily Encumbered: +100% CD",
         "Wise Explorer: -50% CD"
       ]
     },
@@ -11690,16 +11708,13 @@
       "elevation": 0,
       "terrain": "NORMAL",
       "players": [
-        "player63",
-        "my_fair_brady",
-        "jon bernal",
-        "yanrong",
-        "player65",
-        "i hate this project",
+        "mikaela",
         "shawn antonucci",
+        "nickcannariato",
+        "jon bernal",
+        "my_fair_brady",
         "chance-got-a-job",
-        "stuck_on_map_traversal",
-        "[code_laryna]",
+        "joy of the apocalypse",
         "jawad"
       ],
       "items": [],
@@ -12353,23 +12368,681 @@
     }
   ],
   "currentRoom": {
-    "room_id": 315,
+    "room_id": 10,
     "title": "A misty room",
     "description": "You are standing on grass and surrounded by a dense mist. You can barely make out the exits in any direction.",
-    "coordinates": "(69,55)",
+    "coordinates": "(60,61)",
     "elevation": 0,
     "terrain": "NORMAL",
-    "players": [],
+    "players": [
+      "anon_denlife_loyalist",
+      "player146"
+    ],
     "items": [],
     "exits": [
+      "n",
+      "s",
       "w"
     ],
-    "cooldown": 1,
+    "cooldown": 15,
     "errors": [],
-    "messages": []
+    "messages": [
+      "You have walked north.",
+      "Wise Explorer: -50% CD"
+    ]
   },
   "queue": [],
-  "cooldown": 1,
+  "cooldown": 15,
   "timer": 0,
-  "timeout": true
+  "timeout": true,
+  "profiteer": true,
+  "explored": [
+    {
+      "n": 10,
+      "s": 2,
+      "e": 4,
+      "w": 1
+    },
+    {
+      "e": 0
+    },
+    {
+      "n": 0,
+      "s": "?",
+      "e": 3
+    },
+    {
+      "s": 9,
+      "e": 5,
+      "w": 2
+    },
+    {
+      "n": 23,
+      "e": "?",
+      "w": 0
+    },
+    {
+      "w": 3
+    },
+    {},
+    {},
+    {},
+    {
+      "n": 3,
+      "s": 12,
+      "e": "?"
+    },
+    {
+      "n": 19,
+      "s": 0,
+      "w": "?"
+    },
+    {},
+    {
+      "n": 9,
+      "s": "?",
+      "e": 14,
+      "w": "?"
+    },
+    {},
+    {
+      "s": 34,
+      "e": 37,
+      "w": 12
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 20,
+      "s": 10,
+      "w": "?"
+    },
+    {
+      "n": 63,
+      "s": 19,
+      "e": "?",
+      "w": "?"
+    },
+    {},
+    {},
+    {
+      "s": 4,
+      "e": "?"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 14,
+      "s": "?",
+      "e": 35
+    },
+    {
+      "s": 52,
+      "w": 34
+    },
+    {},
+    {
+      "w": 14
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 35,
+      "s": 68,
+      "e": 75
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 72,
+      "s": 20,
+      "w": "?"
+    },
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 52,
+      "e": 100
+    },
+    {},
+    {},
+    {},
+    {
+      "s": 63,
+      "w": 76
+    },
+    {},
+    {},
+    {
+      "e": 85,
+      "w": 52
+    },
+    {
+      "n": 83,
+      "e": 72,
+      "w": "?"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "s": 76,
+      "e": 130,
+      "w": "?"
+    },
+    {},
+    {
+      "e": 154,
+      "w": 75
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "s": "?",
+      "e": 112,
+      "w": 68
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "s": 141,
+      "e": "?",
+      "w": 100
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "w": 83
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 112,
+      "e": 156
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "e": 193,
+      "w": 85
+    },
+    {},
+    {
+      "s": "?",
+      "e": 164,
+      "w": 141
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": "?",
+      "e": 298,
+      "w": 156
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "e": 251,
+      "w": 154
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "e": 315,
+      "w": 193
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "s": 324,
+      "w": 164
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "w": 251
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 298,
+      "s": 349,
+      "e": "?"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 324,
+      "s": 352,
+      "e": "?",
+      "w": "?"
+    },
+    {},
+    {},
+    {
+      "n": 349,
+      "s": 362,
+      "e": "?"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 352,
+      "s": 399,
+      "w": "?"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 362,
+      "s": 467
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "n": 399
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "encumbered": false,
+  "confirm": true,
+  "nameChanged": true
 }
